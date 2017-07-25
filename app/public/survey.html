@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Friend Finder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center"><span class="glyphicon glyphicon-eye-open"></span> FRIEND FINDER</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <h2>Questions</h2>
+      <h3><strong>Tell us about yourself!</strong></h3>
+      <h4>Name*</h4>
+    <input type="text" name="" placeholder="Please enter your name" id="name" class="form-control" required >
+
+    <h4>Photo*</h4>
+    <input type="text" name="" placeholder="Please add a link to your photo" id="photo" class="form-control" required >
+
+    <hr>
+
+    <h3><strong>Question 1</strong></h3>
+    <h4>You are always optimistic:</h4>
+    <select data-placeholder="" class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 2</strong></h3>
+    <h4>Its difficult for you to handle pressure situation:</h4>
+    <select data-placeholder="" class="chosen-select" id="q2">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 3</strong></h3>
+    <h4>You are very much into the sports:</h4>
+    <select data-placeholder="" class="chosen-select" id="q3">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 4</strong></h3>
+    <h4>You like to travel around the world:</h4>
+    <select data-placeholder="" class="chosen-select" id="q4">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 5</strong></h3>
+    <h4>You can get along with any kind of people:</h4>
+    <select data-placeholder="" class="chosen-select" id="q5">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 6</strong></h3>
+    <h4>You really care about other people's feelings:</h4>
+    <select data-placeholder="" class="chosen-select" id="q6">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 7</strong></h3>
+    <h4>You are one of those people who doesn't like to lie:</h4>
+    <select data-placeholder="" class="chosen-select" id="q7">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 8</strong></h3>
+    <h4>You believe in practical life over dreaming it: </h4>
+    <select data-placeholder="" class="chosen-select" id="q8">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 9</strong></h3>
+    <h4>You are the porson who listen first and then speaks:</h4>
+    <select data-placeholder="" class="chosen-select" id="q9">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 10</strong></h3>
+    <h4>You would stay home at the weekends and call your friends to meet:</h4>
+    <select data-placeholder="" class="chosen-select" id="q10">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <br>
+    <br>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-success btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+    Submit</button>
+
+    <hr>
+      <footer class="footer">
+        <div class="container">
+      <p><a href="/api/friends">API Friends List</a></p>
+        </div>
+      </footer>
+  </div>
+
+  
+  <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Here is your Perfect Match</h4>
+      </div>
+      <div class="modal-body">
+        <h2 id="matchedName"></h2>
+        <img id="matchedImg" src="http://4.bp.blogspot.com/-llh6c4dYACc/T7qnnu8xI7I/AAAAAAAACHA/oi4dzQ-TInI/s1600/yay.png" style="width:100%">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <script type="text/javascript">
+
+  /*********** To make sure that user has submitted all the input values**********/
+
+  $("#submit").on("click", function(){
+
+    function validateForm() {
+      var isValid = true;
+      $('.form-control').each(function() {
+        if ( $(this).val() === "")
+            isValid = false;
+      });
+      $('.chosen-select').each(function() {
+        if( $(this).val() === "")
+          isValid = false
+      })
+      return isValid;
+    }
+
+    if (validateForm()) {
+
+      var userData = {
+      name: $("#name").val(),
+      photo: $("#photo").val(),
+      scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+      }
+
+      $.post("/api/friends",userData, function(data) {
+
+        $("#matchedName").text(data.name);
+        $("#matchedImg").attr("src", data.photo);
+        $("#myModal").modal("toggle");
+      })
+    }
+    else {
+      alert("Please fill out all fields before submitting!");
+    }
+  });
+    
+
+  </script>
+</body>
+</html>

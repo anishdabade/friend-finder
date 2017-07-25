@@ -1,0 +1,165 @@
+var friendsData = [
+  {
+      "name":"William",
+      "photo":"https://images-na.ssl-images-amazon.com/images/G/01/aplusautomation/vendorimages/65fa961e-8f22-4fe6-a420-3c3c26dd2953.jpg._CB289161999__SL300__.jpg",
+      "scores":[
+         5,
+         1,
+         5,
+         3,
+         5,
+         2,
+         1,
+         2,
+         3,
+         1
+          ]
+      },
+  {
+  "name":"Brian",
+  "photo":"https://cdn.theatlantic.com/assets/media/img/mt/2016/01/superman/lead_960.jpg?1454104448",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Dayan",
+  "photo":"https://images.halloweencostumes.com/products/12125/1-1/deluxe-dark-knight-catwoman-costume.jpg",
+  "scores":[
+     3,
+     1,
+     4,
+     2,
+     4,
+     1,
+     3,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Anthony",
+  "photo":"https://pmcvariety.files.wordpress.com/2016/07/aquaman.jpg?w=1000&h=573&crop=1",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     3,
+     2,
+     4,
+     1,
+     5
+      ]
+},
+{
+  "name":"David",
+  "photo":"http://www.cbr.com/wp-content/uploads/2017/02/the-flash-cw.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     4,
+     3,
+     4,
+     1,
+     2
+      ]
+},
+{
+  "name":"Rita",
+  "photo":"http://s.newsweek.com/sites/www.newsweek.com/files/2017/06/05/wonder-woman.jpg",
+  "scores":[
+     5,
+     1,
+     3,
+     3,
+     2,
+     2,
+     5,
+     1,
+     4,
+     3
+      ]
+},
+{
+  "name":"Jerome",
+  "photo":"https://vignette1.wikia.nocookie.net/arrow/images/4/42/Arrow_promotional_image.png/revision/latest?cb=20140301002150",
+  "scores":[
+     4,
+     1,
+     4,
+     2,
+     2,
+     3,
+     3,
+     2,
+     1,
+     2
+      ]
+},
+{
+  "name":"Eri",
+  "photo":"http://vignette1.wikia.nocookie.net/superman/images/0/08/Supergirl-cbs-benoist.jpg/revision/latest?cb=20160913145048",
+  "scores":[
+     4,
+     1,
+     2,
+     1,
+     2,
+     2,
+     4,
+     4,
+     2,
+     5
+      ]
+},
+{
+  "name":"Austin",
+  "photo":"http://blog.caranddriver.com/wp-content/uploads/2017/04/cars_3_characters-1-876x535.jpg",
+  "scores":[
+     3,
+     5,
+     1,
+     3,
+     2,
+     5,
+     3,
+     1,
+     3,
+     2
+      ]
+},
+{
+  "name":"Charlotte",
+  "photo":"https://img.buzzfeed.com/buzzfeed-static/static/2015-08/31/22/campaign_images/webdr09/18-important-life-lessons-phoebe-taught-on-us-on--2-27858-1441073280-0_dblbig.jpg",
+  "scores":[
+     4,
+     4,
+     2,
+     3,
+     4,
+     2,
+     5,
+     4,
+     2,
+     3
+      ]
+}
+];
+
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friendsData;
